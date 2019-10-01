@@ -33,7 +33,7 @@ public class SpringbootApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootApplication.class, args);
 
-		String clusterSeed = "192.168.1.177:3000";
+		String clusterSeed = "192.168.1.177"+":3000";
 		String ip = "192.168.1.177";
 
 		ClusterConfig configWithFixedPort = new ClusterConfig()
